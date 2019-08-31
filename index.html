@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="background"></div>
+		<div class="ymese">YMESE</div>
+		<div class="container">
+
+			<!-- HEADER -->
+			<header class="header">
+				<div class="header__information">
+					<h1 class="header__information--title">
+						We Want To Hear From You.
+					</h1>
+					<h1 class="header__information--uppercase">
+						coffee is on us!
+					</h1>
+					<p>
+						We would like to better understand your organisation's IT infrastructure needs. Your response will help us tailor products and services more effectively. Stand a chance to receive a Starbucks coffee voucher worth SGDS10 and participate in our lucky draw to win attractive prized Survey closes on <b> 5 August 2016, 11:59pm</b>.
+					</p>
+					<i>Click here</i>
+				</div>
+				<div class="header__image">
+					<img src="./images/tab.png" alt="" class="header__image--item">
+				</div>
+			</header>
+
+			<!-- SECTION -->
+			<section class="section">
+				<form action="#" name="myform" method="post" onsubmit="return validateForm()">
+					<div class="main">
+						<div class="main__content">
+							<i class="far fa-comment-alt content--icon"></i>
+							<h5>ANSWER THE FOLLOWING QUESTIONS</h5>
+							<ul class="main__content__list-question">
+								<li class="main__content__list-question--item" onclick="myFunction()">
+									<h3>01. </h3><p> How many employees do you have in your office ? </p><i class='fas fa-angle-down'></i>
+									<div id="demo"></div>
+								</li>
+								<li class="main__content__list-question--item">
+									<h3>02. </h3><p> How many employees do you have in your office ? </p><i class='fas fa-angle-down'></i>
+								</li>
+								<li class="main__content__list-question--item">
+									<h3>03. </h3><p> How many employees do you have in your office ? </p><i class='fas fa-angle-down'></i>
+								</li>
+								<li class="main__content__list-question--item">
+									<h3>04. </h3><p> Do you have any .... ? </p><i class='fas fa-angle-down'></i>
+								</li>
+								<li class="main__content__list-question--item">
+									<h3>05. </h3><p> How many employees do you have in your office ? </p><i class='fas fa-angle-down'></i>
+								</li>
+								<li class="main__content__list-question--item">
+									<h3>06. </h3><p> How many employees do you have in your office ? </p><i class='fas fa-angle-down'></i>
+								</li>
+							</ul>
+						</div>
+						<div class="main__contact">
+							<i class="fas fa-phone-alt content--icon"></i>
+							<h5>CONTACT DETAILS</h5>
+							<ul class="main__contact__list-form">
+								<li class="main__contact__list-form--item">
+									<input id="firstname" value="" type="text" placeholder="First name">
+								</li>
+								<li class="main__contact__list-form--item">
+									<input id="lastname" value="" type="text" placeholder="Last name">
+								</li>
+								<li class="main__contact__list-form--item">
+									<input id="companyname" value="" type="text" placeholder="Company name">
+								</li>
+								<li class="main__contact__list-form--item">
+									<input id="address" value="" type="text" placeholder="Address">
+								</li>
+								<li class="main__contact__list-form--item">
+									<input id="job" value="" type="text" placeholder="Job">
+								</li>
+								<li class="main__contact__list-form--item">
+									<input id="email" value="" type="text" placeholder="Email address">
+								</li>
+								<li class="main__contact__list-form--item">
+									<input id="phone" value="" type="text" placeholder="Phone number">
+								</li>
+							</ul>
+							<div class="main__contact__support">
+								<p>How would you like to be contacted?</p>
+								<input type="radio" name="contact" value="Email"> Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="radio" name="contact" value="Phone"> Phone<br>
+								<input type="radio" name="contact" value="Other"> Please send me updates on Lenovo products events and offers<br>  
+							</div>
+						</div>
+					</div>
+					<div class="main--submit">
+						<button type="submit" value="submit">Submit</button>
+					</div>
+				</form>
+			</section>
+
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/validate.js" ></script>
+</body>
+</html>

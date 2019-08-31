@@ -1,0 +1,210 @@
+* {
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.wrapper {
+	position: relative;
+	max-width: 1050px;
+	background-color: #02aff2;
+}
+
+.background {
+	height: 20px;
+	background-color: #02aff2;
+}
+
+.ymese {
+	position: absolute;
+	top: 60px;
+	right: 0px;
+	background-color: #f66f00;
+	width: 45px;
+	height: 150px;
+	writing-mode: vertical-rl;
+	text-align: center;
+	text-orientation: mixed;
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.container {
+	max-width: 992px;
+	border: solid 2px white;
+}
+
+/* HEADER CSS */
+.header {
+	width: 100%;
+	display: flex;
+	background-color: #02aff2;
+	padding: 30px 40px;
+	color: white;
+}
+
+.header .header__information {
+	width: 50%;
+}
+
+.header .header__information .header__information--title {
+	font-weight: 400;
+}
+
+.header .header__information .header__information--uppercase {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.header .header__information p {
+	margin-bottom: 20px;
+}
+
+.header .header__image {
+	width: 50%;
+}
+
+.header .header__image img {
+	max-width: 100%;
+}
+
+/* MAIN */
+.main {
+	width: 100%;
+	display: flex;
+	background-color: white;
+	padding-top: 50px;
+	height: auto;
+}
+
+.main .main__content {
+	width: 55%;
+	margin-left: 40px;
+}
+
+.main .main__content .main__content__list-question {
+	margin: 20px 40px 20px 0px;
+}
+
+.main .main__content .main__content__list-question .main__content__list-question--item {
+	padding: 10px 0px;
+}
+
+.main .main__content .main__content__list-question .main__content__list-question--item h3 {
+	display: inline;
+	margin-right: 6px;
+}
+
+.main .main__content .main__content__list-question .main__content__list-question--item p {
+	width: 100%;
+	display: inline;
+}
+
+.main .main__content .main__content__list-question .main__content__list-question--item i {
+	float: right;
+}
+
+.main .main__content .main__content__list-question .main__content__list-question--item:after {
+	content: '';
+	display: block;
+	border-bottom: solid 1px gray;
+	padding: 4px;
+}
+
+.main .main__contact {
+	width: 45%;
+	margin-left: 60px;
+}
+
+.main .main__contact .main__contact__list-form {
+	margin: 20px 40px 20px 0px;
+	padding-top: 10px;
+}
+
+.main .main__contact .main__contact__list-form .main__contact__list-form--item {
+	margin-bottom: 10px;
+}
+
+.main .main__contact .main__contact__list-form .main__contact__list-form--item input {
+	width: 90%;
+	padding: 12px 15px;
+}
+
+.main .main__contact .main__contact__support input {
+	margin: 10px;
+	color: #f66f00;
+}
+
+.main .content--icon {
+	color: #02aff2 !important;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+
+.main .content--icon:after {
+	content: '';
+	display: block;
+	border-bottom: solid 2px #02aff2 !important;
+	padding: 4px;
+}
+
+.main li {
+	list-style: none;
+}
+
+.main input {
+	background-color: #b6e0ef;
+	outline: none;
+	border: none;
+}
+
+.section .main--submit {
+	padding: 30px 0px;
+	background-color: white;
+	text-align: center;
+}
+
+.section .main--submit button {
+	padding: 10px 80px;
+	background-color: #f66f00;
+	color: white;
+	outline: none;
+	border: none;
+}
+
+.section .main--submit button:hover {
+	cursor: pointer;
+}
+
+.question {
+	width: 100%;
+	padding: 12px 15px;
+	background-color: #b6e0ef;
+	outline: none;
+	border: none;
+}
+
+@media only screen and (max-width:568px) {
+	.header, .main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header__information, .header__image, .main__content, .main__contact {
+		width: 90% !important;
+	}
+
+	.main .main__contact {
+		margin-left: 40px;
+	}
+
+}
+
+/*# sourceMappingURL=style.css.map */
